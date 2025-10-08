@@ -1,0 +1,190 @@
+{
+  "files": [
+    {
+      "fileName": "./myapp",
+      "SPDXID": "SPDXRef-File--myapp-FC655278FFE2DA8E680691EA6C22D9834414351E",
+      "checksums": [
+        {
+          "algorithm": "SHA256",
+          "checksumValue": "f76f9249abe1d2fb62e01abfafed6862c43c8951c486e481cb4f65bd0fb14a9a"
+        },
+        {
+          "algorithm": "SHA1",
+          "checksumValue": "fc655278ffe2da8e680691ea6c22d9834414351e"
+        }
+      ],
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoInFiles": [
+        "NOASSERTION"
+      ],
+      "copyrightText": "NOASSERTION"
+    }
+  ],
+  "packages": [
+    {
+      "name": "golang.org/x/sys",
+      "SPDXID": "SPDXRef-Package-C212AC463FC1D129862FD698745077DF4846A91C27CF21F217E9F0E7A4B16453",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "v0.36.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/golang.org/x/sys@v0.36.0"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "github.com/mattn/go-colorable",
+      "SPDXID": "SPDXRef-Package-B93BB7AC428AAF888F8C4843F354A320768E44285BBE34166FE80346F10D8D14",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "v0.1.14",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/mattn/go-colorable@v0.1.14"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "github.com/mattn/go-isatty",
+      "SPDXID": "SPDXRef-Package-C30F2EB64B485497E7132A84A0648253B133D9E86B23D22CDAAEC874804520BB",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "v0.0.20",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/mattn/go-isatty@v0.0.20"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "github.com/common-nighthawk/go-figure",
+      "SPDXID": "SPDXRef-Package-DD8DF298C6A171D5EF5EF7741EC58933BB3FB73F24B9C6BD9CF726D252F87413",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "v0.0.0-20210622060536-734e95fb86be",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/common-nighthawk/go-figure@v0.0.0-20210622060536-734e95fb86be"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "github.com/fatih/color",
+      "SPDXID": "SPDXRef-Package-52F89DD26BCD52CC6CD15E2D080A4095EA14639C08D7E8F369E0476F4EAC7E25",
+      "downloadLocation": "NOASSERTION",
+      "filesAnalyzed": false,
+      "licenseConcluded": "NOASSERTION",
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "v1.18.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:golang/github.com/fatih/color@v1.18.0"
+        }
+      ],
+      "supplier": "NOASSERTION"
+    },
+    {
+      "name": "sbom-go-test",
+      "SPDXID": "SPDXRef-RootPackage",
+      "downloadLocation": "NOASSERTION",
+      "packageVerificationCode": {
+        "packageVerificationCodeValue": "5279071f465bde1fe3118317cd8ad15d4deb2099"
+      },
+      "filesAnalyzed": true,
+      "licenseConcluded": "NOASSERTION",
+      "licenseInfoFromFiles": [
+        "NOASSERTION"
+      ],
+      "licenseDeclared": "NOASSERTION",
+      "copyrightText": "NOASSERTION",
+      "versionInfo": "1.0.0",
+      "externalRefs": [
+        {
+          "referenceCategory": "PACKAGE-MANAGER",
+          "referenceType": "purl",
+          "referenceLocator": "pkg:swid/Moriwaki%20Y/github.com/sbom-go-test@1.0.0?tag_id=dd7a9b8b-b1be-4642-836e-e4e5e2904170"
+        }
+      ],
+      "supplier": "Organization: Moriwaki Y",
+      "hasFiles": [
+        "SPDXRef-File--myapp-FC655278FFE2DA8E680691EA6C22D9834414351E"
+      ]
+    }
+  ],
+  "externalDocumentRefs": [],
+  "relationships": [
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-52F89DD26BCD52CC6CD15E2D080A4095EA14639C08D7E8F369E0476F4EAC7E25",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relationshipType": "DESCRIBES",
+      "relatedSpdxElement": "SPDXRef-RootPackage",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-DD8DF298C6A171D5EF5EF7741EC58933BB3FB73F24B9C6BD9CF726D252F87413",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-B93BB7AC428AAF888F8C4843F354A320768E44285BBE34166FE80346F10D8D14",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-C212AC463FC1D129862FD698745077DF4846A91C27CF21F217E9F0E7A4B16453",
+      "spdxElementId": "SPDXRef-RootPackage"
+    },
+    {
+      "relationshipType": "DEPENDS_ON",
+      "relatedSpdxElement": "SPDXRef-Package-C30F2EB64B485497E7132A84A0648253B133D9E86B23D22CDAAEC874804520BB",
+      "spdxElementId": "SPDXRef-RootPackage"
+    }
+  ],
+  "spdxVersion": "SPDX-2.2",
+  "dataLicense": "CC0-1.0",
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "name": "sbom-go-test 1.0.0",
+  "documentNamespace": "https://github.com/MoriwakiYusuke/sbom-go-test/sbom-go-test/1.0.0/1VqEN6Z1oU2ISPAB6umtgQ",
+  "creationInfo": {
+    "created": "2025-10-08T10:47:19Z",
+    "creators": [
+      "Organization: Moriwaki Y",
+      "Tool: Microsoft.SBOMTool-4.1.1"
+    ]
+  },
+  "documentDescribes": [
+    "SPDXRef-RootPackage"
+  ]
+}
